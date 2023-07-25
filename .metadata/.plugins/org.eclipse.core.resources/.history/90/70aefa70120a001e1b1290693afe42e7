@@ -1,0 +1,23 @@
+package gfg;
+import java.util.*;
+
+public class PrimeNumber {
+	static String isPrime(int num) {
+		if(num == 2 || num == 3) {
+			return "number is prime";
+		}
+		if((boolean)(6*num+1) )
+			return "number is prime";
+		else
+			return "number is not prime";
+	}
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter number : ");
+		int num = sc.nextInt();
+		System.out.println(PrimeNumber.isPrime(num));
+
+	}
+
+}

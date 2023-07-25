@@ -1,0 +1,36 @@
+package com.vitamins;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        try
+        {
+			String url="jdbc:mysql://localhost:3306/mydb";
+		Connection con=DriverManager.getConnection(url,"root","Rudra@9765");
+
+			PreparedStatement pst=con.prepareStatement("select * from dept");
+
+ResultSet rs=pst.executeQuery();
+
+while(rs.next())
+{
+	System.out.println(rs.getInt(1)+"\t"+rs.getString(2)+"\t"+rs.getString(3));
+}
+        }
+        catch(SQLException ss)
+        {
+        	ss.printStackTrace();
+        }
+    }
+}

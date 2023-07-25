@@ -1,0 +1,22 @@
+package gfg;
+import java.util.*;
+public class Palindrome {
+	static boolean isPalin(int num) {
+		int temp = num;
+		int rem=0;
+		int res= 0;
+		if(num>0) {
+			while(num>0) {
+				rem = temp%10;
+				temp /= 10;
+				res = (10*rem)+rem
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

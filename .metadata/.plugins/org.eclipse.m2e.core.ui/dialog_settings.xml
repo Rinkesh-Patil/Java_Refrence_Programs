@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="MOCKito"/>
+			<item value="JUNIT"/>
+			<item value="LOGGING"/>
+			<item value="AUTO_WIRE"/>
+			<item value="AOP_2"/>
+			<item value="AOP"/>
+			<item value="Spring_DEMO"/>
+			<item value="HCQL"/>
+			<item value="Lazy_Eager_Assing"/>
+			<item value="IOC"/>
+			<item value="DAO_demo"/>
+			<item value="MANY_TO_MANY"/>
+			<item value="oneToMant_reverseEngg"/>
+			<item value="OneToMany"/>
+			<item value="One_TO_ONE"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="MOCKito"/>
+			<item value="JUNIT"/>
+			<item value="LOGGING"/>
+			<item value="AUTO_WIRE"/>
+			<item value="AOP_2"/>
+			<item value="AOP"/>
+			<item value="Spring_DEMO"/>
+			<item value="HCQL"/>
+			<item value="Lazy_Eager_Assing"/>
+			<item value="IOC"/>
+			<item value="DAO_demo"/>
+			<item value="MANY_TO_MANY"/>
+			<item value="oneToMant_reverseEngg"/>
+			<item value="OneToMany"/>
+			<item value="One_TO_ONE"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\JAVA17\workspace\Spring_DEMO\src\mypack\Main.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.vitamins"/>
+		</list>
+		<list key="groupId">
+			<item value="com"/>
+		</list>
+		<list key="artifactId">
+			<item value="vitamins"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

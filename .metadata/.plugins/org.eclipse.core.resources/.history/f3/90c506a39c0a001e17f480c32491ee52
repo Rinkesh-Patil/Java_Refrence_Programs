@@ -1,0 +1,32 @@
+package mypack;
+
+import java.util.*;
+public class Book {
+	private int id;
+	private String title;
+	private int cost;
+	private Set<Author> authors;
+	public int getId() {
+		return id;
+	}
+	
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public int getCost() {
+		return cost;
+	}
+	public void setCost(int cost) {
+		this.cost = cost;
+	}
+	public Set<Author> getAuthors() {
+		return authors;
+	}
+	public void setAuthors(Set<Author> authors) {
+		this.authors = authors;
+	}
+
+}

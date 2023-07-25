@@ -1,0 +1,21 @@
+
+<%@taglib prefix="abc" uri="/WEB-INF/hello.tld"%>
+Before tag starts
+<br><b>
+<abc:second code="p1" desc="Soap" price="50"/>     <!-- 1.whichever class is representing tag 'second' must have this 3 members code,desc,price
+                                                        2.must have setters and getters -->
+</b><br>
+After tag
+<br>
+<br>
+Before tag starts
+<br><b>
+<abc:second code='<%="p2"%>' desc="Perfume" price="150"/>
+</b><br>
+After tag
+<br>
+
+
+
+
+

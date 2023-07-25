@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;redirectPro/src/main/java/ForwerdedServ.java&apos; to &apos;ForwardedServ.java&apos;" description="Rename resource &apos;ForwerdedServ.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/ForwerdedServ.java" name="ForwardedServ.java" stamp="1685685991293" updateReferences="true"/>
+</session>

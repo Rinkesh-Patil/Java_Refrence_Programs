@@ -1,0 +1,6 @@
+127.0.0.1 - - [17/Jun/2023:19:16:43 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [17/Jun/2023:19:16:43 +0530] "GET /Assingment_UserLogin/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Jun/2023:19:16:43 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [17/Jun/2023:19:16:46 +0530] "GET /Assingment_UserLogin/Register.html HTTP/1.1" 200 409
+0:0:0:0:0:0:0:1 - - [17/Jun/2023:19:17:10 +0530] "POST /Assingment_UserLogin/RegisterServ HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [17/Jun/2023:19:18:15 +0530] "POST /Assingment_UserLogin/RegisterServ HTTP/1.1" 200 23

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="5.0">
+  <display-name>parameterDemo</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Demo_1</display-name>
+    <servlet-name>Demo_1</servlet-name>
+    <servlet-class>Demo_1</servlet-class>
+    <init-param>
+      <description></description>
+      <param-name>file</param-name>
+      <param-value>Rinkesh_Patil</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Demo_1</servlet-name>
+    <url-pattern>/Demo_1</url-pattern>
+  </servlet-mapping>
+  <context-param>
+    <param-name>driver</param-name>
+    <param-value>Type4 </param-value>
+  </context-param>
+  <servlet>
+    <description></description>
+    <display-name>demo_2</display-name>
+    <servlet-name>demo_2</servlet-name>
+    <servlet-class>demo_2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>demo_2</servlet-name>
+    <url-pattern>/demo_2</url-pattern>
+  </servlet-mapping>
+</web-app>

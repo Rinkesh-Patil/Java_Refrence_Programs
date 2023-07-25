@@ -1,0 +1,20 @@
+package mypack;
+public class ParentBean
+{
+	private AnotherBean abn;
+    public ParentBean()
+    {
+        System.out.println("ParentBean no-arg constructor");
+    }
+    public void setAbn(AnotherBean abn) 
+    {
+        System.out.println("inside setter method of ParentBean");
+        this.abn = abn;
+    }
+    
+    public void perform()
+    {
+        if(abn!=null)
+        System.out.println(abn.disp());
+    }
+}
